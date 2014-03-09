@@ -23,7 +23,7 @@ public class SwingExample {
 				try {
 					UIManager.setLookAndFeel("com.seaglasslookandfeel.SeaGlassLookAndFeel");
 					//UIManager.setLookAndFeel("com.seaglasslookandfeel.SeaGlassLookAndFeel");
-					//��������������
+					//
 					UIManager.getLookAndFeelDefaults().put("defaultFont",
 							 new Font("Microsoft Yahei",Font.PLAIN,12));
 				} catch (Exception e) {
