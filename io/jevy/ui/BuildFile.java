@@ -126,7 +126,8 @@ public class BuildFile extends JFrame implements ActionListener {
 					String[] strs = path.split("\\\\");
 					ps = new PrintStream(path + "\\" + strs[strs.length - 1]
 							+ ".htm");
-					ps.print("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><HTML xmlns=\"http://www.w3.org/1999/xhtml\"><HEAD><META http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><html> <head><title>"
+					ps.print("<HTML lang=zh-CN><HEAD><META  charset=utf-8\">"
+							+ "<title>"
 									+ strs[strs.length - 1]
 									+ "</title></head> <body>");
 				} catch (Exception e) {
